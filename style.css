@@ -58,4 +58,79 @@ main{
     height: 1000px;
     background-color: #ffa185;
 }
+.aquarela{
+    padding: 50px;
+}
+.aquarela h2{
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.aquarela p{
+    color: black;
+    font-size: 1.5rem;
+    width: 904px;
+}
+.conteiner{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.dança{
+    display: flex;
+    justify-content: space-evenly;
+}
+.musica{
+    display: flex;
+    justify-content: space-evenly;
+}
+.img-bloco{
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+    transition: 1s all;
+}
+.img-bloco:hover{
+    box-shadow: 0px 5px 10px 0px red;
+    border: 2px solid white;
+}
+.veja-mais{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+}
+.veja-mais a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 1.8rem;
+}  
+footer{
+    padding: 20px;
+    width: 100%;
+    background-color: #129799;
+}
+.grupo-social{
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    align-items: center;
 
+}
+.social-midia{
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.social-midia img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.menu-footer{
+    width: 750px;
+}
